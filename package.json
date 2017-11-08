@@ -4,7 +4,8 @@
   "description": "web app for st louis fear",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "serve": "browser-sync start --server --files \"dist/css/*.css, dist/js/*.js, dist/*.html, !node_modules/**/*.html\""
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/firesleep/thestlf#readme",
   "devDependencies": {
+    "autoprefixer": "^7.1.6",
     "browser-sync": "^2.18.13",
+    "postcss-cli": "^4.1.1",
     "stylus": "^0.54.5"
   }
 }
