@@ -98,6 +98,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*LAYOUT*/
 
 html, body {
 height: 100%;
@@ -105,18 +106,47 @@ height: 100%;
 
 
 body{
+    
+    background-image: url(/img/stlfpaint.svg);
+    background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+		
+   
+}
+
+.center{
     display:flex;
-    justify-content: center;
     align-items: center;
-}
-
-.header {
-
-height: 50%;
-width:80%;
+    justify-content: center;
+    height:100%;
+    flex-wrap:wrap;
 }
 
 
+
+/*FONTS*/
+
+h1 {font-family: "Knewave",serif;
+font-size:40px;
+color:black;
+}
+
+/*UI Elements*/
+
+
+    .ghost {
+  display: inline-block;
+  width: 50%;
+  padding: 8px;
+  color: ;
+  border: 1px solid #fff;
+  border-radius:10px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
 
 
 
