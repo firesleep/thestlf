@@ -98,44 +98,37 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1{
- font-size:2em;
- color:#6c1e1c;
- letter-spacing: 0.15em;
- text-align:center;
- word-spacing: 0.2em;
-    font-variant:small-caps;
- 
+
+html, body {
+height: 100%;
 }
 
-.radial{
-   
-    background-image: radial-gradient(
-      circle at top right,
-      #fca643,
-      #e63e1a);
+html {
+    border:dotted green;
 }
 
-.bggradient {
-  background-image:
-    radial-gradient(
-      circle at top right,
-      yellow,
-      #f06d06
-    );
+body{
+    background:pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+background:red;
+height: 50%;
+width:100%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
-.repeat {
-  background-image: 
-    repeating-linear-gradient(
-      45deg,
-      yellow,
-      yellow 10px,
-      red 10px,
-      red 20px /* determines size */
-    );
-}
+
+
+
+
+
 
 
 
