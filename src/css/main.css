@@ -107,7 +107,9 @@ height: 100%;
 
 body{
     
-    background-image: url(/img/stlfpaintrender.png);
+    background-image:url(/img/stlfpaintrender.png),
+        radial-gradient(ellipse farthest-side at 100% 100%, #fdcbf1 10%, #e6dee9 120%),
+        url(/img/stlfpaintrender.png);
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
