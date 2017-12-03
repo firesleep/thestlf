@@ -107,11 +107,11 @@ height: 100%;
 
 body{
     
-    background-image: url(/img/stlfpaint.svg);
+    background-image: url();
     background-position: center center;
-			background-repeat:  no-repeat;
-			background-attachment: fixed;
-			background-size:  cover;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
 		
    
 }
@@ -128,7 +128,7 @@ body{
 
 /*FONTS*/
 
-h1 {font-family: "Knewave",serif;
+h1 {font-family: "",serif;
 font-size:40px;
 color:black;
 }
